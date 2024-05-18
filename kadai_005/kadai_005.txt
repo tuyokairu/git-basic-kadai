@@ -1,0 +1,19 @@
+PS C:\Users\Owner\Desktop\puroguramu_kadai> git init git_challenge
+Initialized empty Git repository in C:/Users/Owner/Desktop/puroguramu_kadai/git_challenge/.git/
+
+PS C:\Users\Owner\Desktop\puroguramu_kadai\git_challenge> git add hello_world.txt
+
+PS C:\Users\Owner\Desktop\puroguramu_kadai\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) eb1c6f0] hello_world.txt繧定ｿｽ蜉
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+PS C:\Users\Owner\Desktop\puroguramu_kadai\git_challenge> git add hello_world.txt
+
+PS C:\Users\Owner\Desktop\puroguramu_kadai\git_challenge> git commit -m "日本語訳を追記"
+[main f586d1a] 譌･譛ｬ隱櫁ｨｳ繧定ｿｽ險
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+PS C:\Users\Owner\Desktop\puroguramu_kadai\git_challenge> git log --oneline
+f586d1a (HEAD -> main) 日本語訳を追記
+eb1c6f0 hello_world.txtを追加
